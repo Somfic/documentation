@@ -1,12 +1,12 @@
-$background : black;
+$background : rgb(10, 10, 15);
 $foreground : rgb(197, 197, 197);
 $foreground-muted: rgb(139, 139, 139);
 $foreground-dark: rgb(99, 99, 99);
 
-$background-item : rgb(19, 19, 19);
+$background-item : rgb(29, 29, 31);
 $foreground-item: white;
 
-$background-nav :$background-item;
+$background-nav: $background-item;
 $foreground-nav: $foreground-item;
 
 $shadow: 0px 0px 10px rgb(0, 0, 0);

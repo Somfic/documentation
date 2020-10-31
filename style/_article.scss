@@ -1,10 +1,58 @@
 .article {
+    width: 100%;
+
     .content {
-        margin: 0px 2rem;
+        margin: 4rem;
+        width: 100%;
+
+        .header {
+            width: 100%;
+            padding: 2rem;
+            padding-top: 4rem;
+            border: 2px solid $border;
+            background-color: $background-item;
+            border-radius: 2rem;
+            margin-bottom: 4rem;
+
+            .github {
+                margin: 2rem 1rem;
+                margin-bottom: 0rem;
+                height: 2rem;
+                display: flex;
+                align-items: center;
+                color: $foreground-dark;
+
+                .avatar {
+                    height: 100%;
+                    display: flex;
+                }
+
+                .audit {
+
+                }
+
+                img {
+                    display: block;
+                    border-radius: 100%;
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+
+                p {
+                    margin: auto .5rem;
+                    color: $foreground-muted;
+                }
+            }
+        }
     }
 
     .sidebar {
-        background-color: $background-item;
+        .title {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        background-color: $background-nav;
         padding: 1.5rem;
         min-width: 250px;
         white-space: nowrap;
@@ -79,7 +127,7 @@
     }
 
     .sidebar[isFiltered="true"] {
-        label, a {
+        .item label, .item a {
             opacity: 0.6;
         }        
     }

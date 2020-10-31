@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-color: black;
+  background-color: #0a0a0f;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,7 +42,7 @@ main {
 
 footer {
   height: 80px;
-  background-color: #131313;
+  background-color: #1d1d1f;
 }
 
 nav {
@@ -54,7 +54,7 @@ nav {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #131313;
+  background-color: #1d1d1f;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -103,7 +103,7 @@ nav .links ul {
       -ms-flex-direction: column;
           flex-direction: column;
   position: absolute;
-  background-color: #131313;
+  background-color: #1d1d1f;
   border-radius: 10px;
   padding-top: 1em;
   padding-bottom: 0.5em;
@@ -162,7 +162,7 @@ a {
 button,
 .button {
   background: #e49400;
-  color: black;
+  color: #0a0a0f;
   padding: 5px 20px;
   border: 2px solid #e49400;
   border-radius: 10px;
@@ -188,7 +188,7 @@ button:hover,
 button.hollow:hover,
 .button.hollow:hover {
   background: #ffb222;
-  color: black;
+  color: #0a0a0f;
   border-color: #ffb222;
 }
 
@@ -197,7 +197,7 @@ button:active,
 .button.hollow:active,
 .button:active {
   background: #b17300;
-  color: black;
+  color: #0a0a0f;
   border-color: #b17300;
 }
 
@@ -274,7 +274,7 @@ form {
 
 input[type="text"],
 input[type="password"] {
-  background-color: #131313;
+  background-color: #1d1d1f;
   color: white;
   width: 100%;
   display: block;
@@ -332,7 +332,7 @@ input:focus {
           flex-direction: column;
   word-wrap: break-word;
   border-radius: 10px;
-  background-color: #131313;
+  background-color: #1d1d1f;
   -webkit-box-shadow: 0px 0px 10px black;
           box-shadow: 0px 0px 10px black;
   overflow: hidden;
@@ -413,7 +413,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Rubik", sans-serif !important;
+  font-weight: normal;
 }
 
 * {
@@ -1134,15 +1134,67 @@ p {
   padding-right: 8rem;
 }
 
+.article {
+  width: 100%;
+}
+
 .article .content {
-  margin: 0px 2rem;
+  margin: 4rem;
+  width: 100%;
+}
+
+.article .content .header {
+  width: 100%;
+  padding: 2rem;
+  padding-top: 4rem;
+  border: 2px solid rgba(231, 231, 231, 0.15);
+  background-color: #1d1d1f;
+  border-radius: 2rem;
+  margin-bottom: 4rem;
+}
+
+.article .content .header .github {
+  margin: 2rem 1rem;
+  margin-bottom: 0rem;
+  height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #636363;
+}
+
+.article .content .header .github .avatar {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.article .content .header .github img {
+  display: block;
+  border-radius: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.article .content .header .github p {
+  margin: auto .5rem;
+  color: #8b8b8b;
 }
 
 .article .sidebar {
-  background-color: #131313;
+  background-color: #1d1d1f;
   padding: 1.5rem;
   min-width: 250px;
   white-space: nowrap;
+}
+
+.article .sidebar .title {
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .article .sidebar #searchbox {
@@ -1215,7 +1267,7 @@ p {
   opacity: 1 !important;
 }
 
-.article .sidebar[isFiltered="true"] label, .article .sidebar[isFiltered="true"] a {
+.article .sidebar[isFiltered="true"] .item label, .article .sidebar[isFiltered="true"] .item a {
   opacity: 0.6;
 }
 
@@ -1235,7 +1287,7 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
   white-space: nowrap;
-  background-color: #131313;
+  background-color: #1d1d1f;
   opacity: .5;
 }
 
