@@ -1,0 +1,30 @@
+test:
+    title: EliteVA
+    href: /eliteapi/voiceattack
+    categories:
+      - name: Getting started
+        items:
+          - title: Download
+            href: /
+          - title: Installation
+            href: /
+          - title: Configuration
+            href: /
+      - name: Commands
+        items:
+          - title: Command syntax
+            href: /
+      - name: Tokens
+        items:
+          - title: Token syntax
+            href: /
+          - title: Event tokens
+            href: /
+          - title: Ship tokens
+            href: /
+      - name: Functions
+        items:
+          - title: Function syntax
+            href: /
+          - title: Plugin functions
+            href: /

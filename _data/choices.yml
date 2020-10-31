@@ -1,0 +1,27 @@
+project-selection:
+  prompt: Select a project
+  choices:
+    - eliteapi:
+      title: EliteAPI
+      subtitle: API for Elite&colon; Dangerous
+      img: /assets/images/eliteapi.jpg
+      href: /eliteapi
+
+project-selection-eliteapi:
+  prompt: Select a platform
+  choices:
+    - eliteapi-net:
+      title: .NET
+      subtitle: .NET Standard library
+      img: /assets/images/eliteapi-net.jpg
+      href: /eliteapi/net
+    - eliteapi-voiceattack:
+      title: .NET
+      subtitle: VoiceAttack plugin
+      img: /assets/images/eliteapi-voiceattack.jpg
+      href: /eliteapi/voiceattack
+    - eliteapi-voicemacro:
+      title: VoiceMacro
+      subtitle: VoiceMacro plugin
+      img: /assets/images/eliteapi-voicemacro.jpg
+      href: /eliteapi/voicemacro
