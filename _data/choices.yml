@@ -16,7 +16,7 @@ project-selection-eliteapi:
       img: /assets/images/eliteapi-net.jpg
       href: /eliteapi/net
     - eliteapi-voiceattack:
-      title: .NET
+      title: VoiceAttack
       subtitle: VoiceAttack plugin
       img: /assets/images/eliteapi-voiceattack.jpg
       href: /eliteapi/voiceattack
