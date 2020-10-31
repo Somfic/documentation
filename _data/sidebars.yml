@@ -1,21 +1,20 @@
 test:
   - title: Test 
-    items:
-    - title: Test 1
-      href: '/index.html'
-      items:
-        - title: 'Test link #1'
-          href: '#'
-        - title: 'Test link #2'
-          href: '#'
-        - title: 'Test link #3'
-          href: '#'
-    - title: Test 2
-      href: '/index.html'
-      items:
-        - title: 'Test link #1'
-          href: '#'
-        - title: 'Test link #2'
-          href: '#'
-        - title: 'Test link #3'
-          href: '#'
+    href: '/index.html'
+    categories:
+      - name: Category 1
+        items:
+          - title: 'Test link #1'
+            href: '#'
+          - title: 'Test link #2'
+            href: '#'
+          - title: 'Test link #3'
+            href: '#'
+      - name: Category 2
+        items:
+          - title: 'Test link #1'
+            href: '#'
+          - title: 'Test link #2'
+            href: '#'
+          - title: 'Test link #3'
+            href: '#'
