@@ -1,6 +1,24 @@
 test:
-  - title: Test A1
-  - title: Test A2
+  - title: Test 
+  - items:
+    - title: Test 1
+      href: '/index.html'
+      items:
+        - title: 'Test link #1'
+          href: '#'
+          - title: 'Test link #1'
+          href: '#'
+          - title: 'Test link #1'
+          href: '#'
+    - title: Test 2
+      href: '/index.html'
+      items:
+        - title: 'Test link #1'
+          href: '#'
+          - title: 'Test link #1'
+          href: '#'
+          - title: 'Test link #1'
+          href: '#'
 test2:
   - title: Test B1
   - title: Test B2
