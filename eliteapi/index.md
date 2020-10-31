@@ -1,6 +1,6 @@
 ---
 layout: card-picker
-category: somfic
+category: eliteapi
 subject: documentation
 choice: project-selection-eliteapi
 ---
