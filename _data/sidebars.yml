@@ -5,26 +5,26 @@ eliteva:
       - name: Getting started
         items:
           - title: Download
-            href: /
+            href: /eliteapi/voiceattack
           - title: Installation
-            href: /
+            href: /eliteapi/voiceattack
           - title: Configuration
-            href: /
+            href: /eliteapi/voiceattack
       - name: Commands
         items:
           - title: Command syntax
-            href: /
+            href: /eliteapi/voiceattack
       - name: Tokens
         items:
           - title: Token syntax
-            href: /
+            href: /eliteapi/voiceattack
           - title: Event tokens
-            href: /
+            href: /eliteapi/voiceattack
           - title: Ship tokens
-            href: /
+            href: /eliteapi/voiceattack
       - name: Functions
         items:
           - title: Function syntax
-            href: /
+            href: /eliteapi/voiceattack
           - title: Plugin functions
-            href: /
+            href: /eliteapi/voiceattack
