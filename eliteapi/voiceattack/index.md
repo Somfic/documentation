@@ -8,4 +8,4 @@ navigation: eliteva
 
 # EliteVA
 
-EliteVA is a plugin for [VoiceAttack](https://www.voiceattack.com).
+EliteVA is a plugin for [VoiceAttack](https://www.voiceattack.com), powered by EliteAPI.
