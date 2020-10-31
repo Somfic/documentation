@@ -9,5 +9,3 @@ navigation: eliteva
 # EliteVA
 
 EliteVA is a plugin for [VoiceAttack](https://www.voiceattack.com), powered by EliteAPI.
-
-idk what else to put here. ..
