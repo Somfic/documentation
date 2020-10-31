@@ -1,11 +1,6 @@
 ---
-layout: article
-sidebar: test
-category: testing
-subject: test post
-description: A basic test post
+layout: card-picker
+category: somfic
+subject: documentation
+choice: project-selection 
 ---
-
-# Hello world
-
-Does it work? :(

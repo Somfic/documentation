@@ -1,0 +1,8 @@
+project-selection:
+  prompt: Select a project
+  choices:
+    - eliteapi:
+      title: EliteAPI
+      subtitle: API for Elite&colon; Dangerous
+      img: /assets/images/eliteapi.jpg
+      href: /eliteapi
