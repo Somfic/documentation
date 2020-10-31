@@ -8,4 +8,4 @@ description: A basic test post
 
 # Hello world
 
-Does it work? :((
+Does it work? :(
