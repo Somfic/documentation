@@ -1,3 +1,6 @@
-sidebars:
-  - title: Test
-  - title: Test 2
+test:
+  - title: Test A1
+  - title: Test A2
+test2:
+  - title: Test B1
+  - title: Test B2

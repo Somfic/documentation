@@ -1,6 +1,6 @@
 ---
 layout: article
-sidebar: site.data
+sidebar: test
 category: testing
 subject: test post
 description: A basic test post
