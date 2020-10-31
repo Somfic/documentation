@@ -6,16 +6,16 @@ test:
       items:
         - title: 'Test link #1'
           href: '#'
-        - title: 'Test link #1'
+        - title: 'Test link #2'
           href: '#'
-        - title: 'Test link #1'
+        - title: 'Test link #3'
           href: '#'
     - title: Test 2
       href: '/index.html'
       items:
         - title: 'Test link #1'
           href: '#'
-        - title: 'Test link #1'
+        - title: 'Test link #2'
           href: '#'
-        - title: 'Test link #1'
+        - title: 'Test link #3'
           href: '#'
