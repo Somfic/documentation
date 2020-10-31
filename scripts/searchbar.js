@@ -6,8 +6,11 @@ $.extend($.expr[':'], {
 });
 
 
-function prepareSidebar(url) {
+if(window.location.pathname.startsWith("/eliteapi/voiceattack/")) {
+    prepareSidebar("/eliteapi/voiceattack/static/sidebar.html");
+}
 
+function prepareSidebar(url) {
         let sidebar = $('.sidebar');
 
         sidebar.load(url, () => {
