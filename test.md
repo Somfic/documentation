@@ -5,7 +5,6 @@ subject: test post
 description: A basic test post
 ---
 
-
 # h1 Heading 8-)
 
 ## h2 Heading
