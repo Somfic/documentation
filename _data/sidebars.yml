@@ -1,6 +1,6 @@
 test:
   - title: Test 
-  - items:
+    items:
     - title: Test 1
       href: '/index.html'
       items:
