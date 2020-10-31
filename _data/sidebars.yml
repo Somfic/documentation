@@ -1,20 +1,30 @@
 test:
-  - title: Test??
-    href: /index.html
+  - title: EliteVA
+    href: /
     categories:
-      - name: Category 1
+      - name: Getting started
         items:
-          - title: Test link 1
+          - title: Download
             href: /
-          - title: Test link 2
+          - title: Installation
             href: /
-          - title: Test link 3
+          - title: Configuration
             href: /
-      - name: Category 2
+      - name: Commands
         items:
-          - title: Test link 1
+          - title: Command syntax
             href: /
-          - title: Test link 2
+      - name: Tokens
+        items:
+          - title: Token syntax
             href: /
-          - title: Test link 3
+          - title: Event tokens
+            href: /
+          - title: Ship tokens
+            href: /
+      - name: Functions
+        items:
+          - title: Function syntax
+            href: /
+          - title: Plugin functions
             href: /
