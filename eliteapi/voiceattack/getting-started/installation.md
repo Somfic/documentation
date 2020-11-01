@@ -40,6 +40,6 @@ If everything has gone correctly, the newly created EliteVA should look somethin
 
 ## Copying EliteVA.dll
 
-The last step is to copy EliteVA.dll to the EliteVA folder. See [this guide](/eliteapi/voiceattack/getting-started/download.md) on how to download EliteVA.dll. Drop the EliteVA.dll file into the newly created EliteVA folder.
+The last step is to copy EliteVA.dll to the EliteVA folder. See [this guide](/eliteapi/voiceattack/getting-started/download.html) on how to download EliteVA.dll. Drop the EliteVA.dll file into the newly created EliteVA folder.
 
-You should not be good to go to use the EliteVA plugin in VoiceAttack.
+You should now be good to go to use the EliteVA plugin in VoiceAttack.
