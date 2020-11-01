@@ -6,6 +6,7 @@ description: An overview of what the EliteVA is and does
 navigation: eliteva
 ---
 
-# Markdown test
+# What is EliteVA
 
-This is a test ...
+EliteVA is an implementation of EliteAPI in the form of a VoiceAttack plugin.
+
