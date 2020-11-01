@@ -10,3 +10,4 @@ navigation: eliteva
 
 EliteVA is an implementation of EliteAPI in the form of a VoiceAttack plugin.
 
+It's very cool!
