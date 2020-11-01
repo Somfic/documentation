@@ -29,7 +29,7 @@ VoiceAttack will have to be restarted after changing any of these settings.
 
 ## VoiceAttack/Apps folder
 
-Each VoiceAttack plugin must be placed inside a subfolder in the VoiceAttack/Apps directory. This Apps folder can be found in your installation directory. Depending on how you acquired VoiceAttack your installation folder may vary.
+Each VoiceAttack plugin must be placed inside a sub-folder in the VoiceAttack/Apps directory. This Apps folder can be found in your installation directory. Depending on how you acquired VoiceAttack your installation folder may vary.
 
 |Platform|Path|
 |---|---|
