@@ -29,10 +29,17 @@ VoiceAttack will have to be restarted after changing any of these settings.
 
 ## VoiceAttack/Apps folder
 
-Each VoiceAttack plugin must be placed inside a sub-folder in the VoiceAttack/Apps directory. This Apps folder can be found in your installation directory. Depending on how you acquired VoiceAttack your installation folder may vary.
+Each VoiceAttack plugin must be placed inside a sub-folder in the VoiceAttack/Apps directory. This Apps folder can be found in your installation directory. Depending on how you acquired VoiceAttack your installation folder may vary. This installation folder should contain an Apps folder, create a new EliteVA folder in this Apps directory.
+
+If everything has gone correctly, the newly created EliteVA should look something like this.
 
 |Platform|Path|
 |---|---|
-|Regular|`C:\Program Files (x86)\VoiceAttack`|
-|Steam|`C:\Program Files (x86)\Steam\SteamApps\common\VoiceAttack`|
+|Regular|`C:\Program Files (x86)\VoiceAttack\Apps\EliteVA`|
+|Steam|`C:\Program Files (x86)\Steam\SteamApps\common\VoiceAttack\EliteVA`|
 
+## Copying EliteVA.dll
+
+The last step is to copy EliteVA.dll to the EliteVA folder. See [this guide](/eliteapi/voiceattack/getting-started/download.md) on how to download EliteVA.dll. Drop the EliteVA.dll file into the newly created EliteVA folder.
+
+You should not be good to go to use the EliteVA plugin in VoiceAttack.
