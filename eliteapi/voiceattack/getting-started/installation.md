@@ -8,7 +8,7 @@ navigation: eliteva
 
 # Installing EliteVA
 
-This guide will help you install the EliteVA plugin in VoiceAttack
+This guide will help you install the EliteVA plugin in VoiceAttack.
 
 ## Checklist
 
