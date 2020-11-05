@@ -17,7 +17,7 @@ Tokens can been seen as variables in VoiceAttack. Tokens hold dynamic pieces of 
 Every token has a type of value. VoiceAttack differentiates between six different types of values:
 
 | Type | Value example |
-| ---- | ------------- |
+| --- | --- |
 | Booleans | `true` `false` |
 | Dates | `4/6/2015 12:01:52 PM` |
 | Decimals | `245.2` `0.4245` |
