@@ -16,9 +16,9 @@ Every token has a type of value. VoiceAttack differentiates between six differen
 
 | Type | Value example |
 | ---- | ------------- |
-| Booleans | `true`, `false` |
+| Booleans | `true` `false` |
 | Dates | `4/6/2015 12:01:52 PM` |
-| Decimals | `245.2`, `0.4245` |
+| Decimals | `245.2` `0.4245` |
 | Integers | `36` `4335` `-357803` |
 | Small integers | `2` `-5` `1` |
 | Text | `John` `C:\User\James\Desktop` |
