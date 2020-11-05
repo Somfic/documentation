@@ -42,4 +42,4 @@ Every token has an unique identifier within VoiceAttack with which the value of 
 
 All EliteVA based tokens are prefixed with `EliteAPI`. This is to avoid interfering with tokens defined by the user or other plugins.
 
-For example, `{BOOL.EliteAPI.Gear}` returns the value of the ship's gear. For a list of all tokens see [this page](/eliteapi/voiceattack/tokens/ship.html).
+For example, `{BOOL:EliteAPI.Gear}` returns the value of the ship's gear. For a list of all tokens see [this page](/eliteapi/voiceattack/tokens/ship.html).
