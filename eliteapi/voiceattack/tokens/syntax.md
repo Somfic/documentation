@@ -8,6 +8,8 @@ navigation: eliteva
 
 # Token syntax with EliteVA
 
+This guide will show you what tokens are and how EliteVA uses them.
+
 ## VoiceAttack tokens
 
 Tokens can been seen as variables in VoiceAttack. Tokens hold dynamic pieces of information that can be requested in logical expressions and in text-to-speech functions.
@@ -35,3 +37,9 @@ Every token has an unique identifier within VoiceAttack with which the value of 
 | Integers | `{INT:GamesWon}` |
 | Small integers | `{SMALL:HotbarSlot}` |
 | Text | `{TXT:InGameName}` |
+
+## Tokens with EliteVA
+
+All EliteVA based tokens are prefixed with `EliteAPI`. This is to avoid interfering with tokens defined by the user or other plugins.
+
+For example, `{{BOOl.EliteAPI.Gear}}` returns the value of the ship's gear. For a list of all tokens see [this page](/eliteapi/voiceattack/tokens/ship.html).
