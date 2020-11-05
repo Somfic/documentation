@@ -19,13 +19,13 @@ Every token has a type of value. VoiceAttack differentiates between six differen
 | Booleans | `true`, `false` |
 | Dates | `4/6/2015 12:01:52 PM` |
 | Decimals | `245.2`, `0.4245` |
-| Integers | `36`, `4335`, `-357803` |
-| Small integers | `2`, `-5`, `1` |
-| Text | `John`, `C:\User\James\Desktop` |
+| Integers | `36` `4335` `-357803` |
+| Small integers | `2` `-5` `1` |
+| Text | `John` `C:\User\James\Desktop` |
 
 ## Token identifier
 
-Every token has an unique identifier within VoiceAttack with which the value of a token can be requested. The identifier of a token is build up out of two parts; the token type and the token name surrounded by curly braces. For example: `{BOOL:ItIsRaining}` is a boolean token with the the name *'ItIsRaining'*.
+Every token has an unique identifier within VoiceAttack with which the value of a token can be requested. The identifier of a token is build up out of two parts; the token type and the token name surrounded by curly braces. For example: `{BOOL:ItIsRaining}` is a boolean token with the the name *ItIsRaining*.
 
 | Type | Example |
 | ---- | ------ |
@@ -34,4 +34,4 @@ Every token has an unique identifier within VoiceAttack with which the value of 
 | Decimals | `{DEC:KillPercentage}` |
 | Integers | `{INT:GamesWon}` |
 | Small integers | `{SMALL:HotbarSlot}` |
-| Text | `John`, `{TXT:InGameName}` |
+| Text | `{TXT:InGameName}` |
